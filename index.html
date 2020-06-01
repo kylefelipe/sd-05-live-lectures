@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Live Lecture 6.3</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .menu-container {
+      color: white;
+      background-color: blue;
+      padding: 20px 0;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+
+    .menu {
+      width: 900px;
+      display: flex;
+      justify-content: space-around;
+    }
+
+    .links {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .login {
+      margin-left: 20px;
+    }
+
+    .header-container {
+      color: darkblue;
+      background-color: antiquewhite;
+      display: flex;
+      justify-content: center;
+    }
+
+    .header {
+      width: 900px;
+      height: 300px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .photo-grid-container {
+      display: flex;
+      justify-content: center;
+    }
+
+    .photo-grid {
+      width: 900px;
+      height: 1000px;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      align-items: stretch;
+    }
+
+    .photo-grid-item {
+      border: 1px solid white;
+      width: 300px;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu-container">
+    <div class="menu">
+      <div class="date">Jun 1, 2020</div>
+      <div class="links">
+        <div class="signup">Sign Up</div>
+        <div class="login">Login</div>
+      </div>
+    </div>  
+  </div>
+  <div class="header-container">
+    <div class="header">
+      <div class="subscribe item">Subscribe &#9662;</div>
+      <div class="logo"><img src='images/awesome-logo.svg'/></div>
+      <div class="social"><img src='images/social-icons.svg'/></div>
+    </div>
+  </div>
+  <div class="photo-grid-container">
+    <div class="photo-grid">
+      <div class="photo-grid-item">
+        <img src="images/two.svg"/>
+      </div>
+      <div class="photo-grid-item">
+        <img src="images/two.svg"/>
+      </div>
+      <div class="photo-grid-item">
+        <img src="images/three.svg"/>
+      </div>
+      <div class="photo-grid-item">
+        <img src="images/four.svg"/>
+      </div>
+      <div class="photo-grid-item">
+        <img src="images/five.svg"/>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
