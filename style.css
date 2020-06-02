@@ -1,0 +1,192 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav, ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  opacity: 0.7;
+}
+
+a:hover {
+  opacity: 1;
+}
+
+header {
+  background-color: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav {
+  display: flex;
+
+}
+
+header li {
+  margin: 0 15px;
+}
+
+header li:first-child {
+  margin-left: 0;
+}
+
+header li:last-child {
+  margin-right: 0;
+}
+
+header img {
+  width: 200px;
+}
+
+header li a {
+  color: black;
+}
+
+.hero {
+  background-image: url(./images/hero.jpg);
+  background-size: cover;
+  min-height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 3em;
+  margin-bottom: 15px;
+}
+
+.hero h3 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.hero .btn {
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  padding: 20px 50px;
+  text-transform: uppercase;
+}
+
+ul.grid li:nth-child(1) {
+  background-image: url('images/itacare-01.jpg');
+}
+
+ul.grid li:nth-child(2) {
+  background-image: url('images/itacare-02.jpg');
+}
+
+ul.grid li:nth-child(3) {
+  background-image: url('images/itacare-03.jpg');
+}
+
+ul.grid li:nth-child(4) {
+  background-image: url('images/itacare-04.jpg');
+}
+
+.know-the-hotel {
+  padding: 100px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.know-the-hotel h3 {
+  font-size: 2em;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.know-the-hotel p {
+  max-width: 70%;
+  margin-bottom: 35px;
+  text-align: center;
+}
+
+.know-the-hotel .grid {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.know-the-hotel .grid li {
+  height: 350px;
+  padding: 20px;
+  border-radius: 4px;
+  background-clip: content-box;
+  background-size: cover;
+  background-position: center;
+}
+
+.know-the-hotel .grid li.small {
+  flex-basis: 40%;
+}
+
+.know-the-hotel .grid li.large {
+  flex-basis: 60%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  padding: 50px 0;
+}
+
+footer ul {
+  display: flex;
+  margin-bottom: 25px;
+  height: 300px;
+  border: 1px solid red;
+}
+
+footer ul li {
+  margin-right: 10px;
+}
+
+footer ul li:last-child {
+  margin-right: 0;
+}
+
+footer ul li a {
+  color: yellow;
+  font-size: 2em;
+}
+
+footer p {
+  color: yellow;
+  text-align: center;
+}
+
+footer ul li:nth-child(2) {
+  align-self: center;
+}
+
+footer ul li:nth-child(1) {
+  order: 4;
+}
+
+footer ul li:nth-child(2) {
+  order: 3;
+}
+
+footer ul li:nth-child(3) {
+  order: 2;
+}
+
+footer ul li:nth-child(4) {
+  order: 1
+}
